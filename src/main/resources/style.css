@@ -1,0 +1,57 @@
+.main-panel{
+	-fx-background-color: linear-gradient(to right, #063F83, #042D5D);
+}
+
+.button-f{
+	-fx-background-color: #0051B2;
+	-fx-background-radius: 10px;
+	-fx-text-fill: #FFFFFF;
+	-fx-font-size: 15px;
+	-fx-font-family: "arial bold";
+}
+
+.button-f:hover{
+	-fx-font-size: 16px;
+	-fx-effect: dropshadow(three-pass-box, rgba(255, 255, 255, 0.8), 8, 0, 0, 0);
+}
+
+.text-field{
+	-fx-text-fill: #000000;
+	-fx-font-family: "arial bold";
+	-fx-background-radius: 35px;
+}
+
+.text-field:hover{
+	-fx-effect: dropshadow(three-pass-box, rgba(255, 255, 255, 0.8), 8, 0, 0, 0);
+}
+
+.disable-button{
+	-fx-text-fill: #FFFFFF;
+	-fx-background-color: #FF0003;
+	-fx-font-size: 15px;
+	-fx-opacity: 50%;
+}
+
+.disable-button:hover{
+	-fx-text-fill: #FFFFFF;
+	-fx-background-color: #FF0003;
+	-fx-font-size: 15px;
+	-fx-opacity: 100%;
+}
+
+.choice-server{
+	-fx-text-fill: #FFFFFF;
+	-fx-background-color: #0051B2;
+	-fx-opacity: 60%;
+}
+
+.choice-server:hover{
+	-fx-effect: dropshadow(three-pass-box, rgba(255, 255, 255, 0.8), 8, 0, 0, 0);
+	-fx-opacity: 90%;
+}
+
+
+.vbox-text{
+	-fx-text-fill: #FFFFFF;
+	-fx-effect: dropshadow(three-pass-box, rgba(33, 97, 140, 1), 10, 1, 0, 0);
+}
